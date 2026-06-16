@@ -1,0 +1,129 @@
+body{
+  font-family:'Inter',sans-serif;
+  margin: 0;
+  background-color: #0d0d0d;
+  color: white;
+}
+.h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.nav{
+    text-decoration: none;
+    color: white;
+}
+.hero-block{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(https://i.pinimg.com/736x/af/ad/49/afad499b9383e197bd64f5e5b3c64978.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    display: flex;
+}
+
+.img{
+    width: 100%;
+}
+
+.h2{
+    text-align: center;
+    margin: 30px;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.bike-card{
+    width:650px;
+    background: #242323;
+    border-radius:20px;
+    overflow:hidden;
+    font-family:Arial,sans-serif;
+    color:white;
+    margin-bottom: 20px;
+}
+.bike-card img{
+    width:650px;
+    height:600px;
+}
+.bike-info h2{
+    margin-bottom:10px;
+    font-size:28px;
+}
+.bike-info p{
+    color:#aaa;
+    line-height:1.5;
+    margin-bottom:15px;
+}
+.bike-info{
+    display:block;
+    font-size:24px;
+    font-weight:bold;
+    color:#ff5e00;
+    margin-bottom: 20px;
+    width:650px;
+    background: #242323;
+    border-radius:20px;
+    overflow:hidden;
+    font-family:Arial,sans-serif;
+    padding: 20px;
+}
+
+.bike-info a{
+    display:inline-block;
+    padding:12px 20px;
+    background:#ff5e00;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+}
+.bike-info a:hover{
+    background-color: #c44c06;
+    transition: all 0.3s;
+}
+.gallery{
+  margin-bottom: 30px;
+}
+
+.gallery img{
+  width:100%;
+  height:500px;
+  border: 2px solid white;
+  border-radius:16px;
+  transition:0.3s;
+}
+
+.gallery img:hover{
+  transition: all 0.3s;
+  transform:scale(1.03);
+}
+.footer{
+  padding:40px 20px;
+  text-align:center;
+  background:#111;
+  color:#777;
+}
+
+.kovi-btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:12px 20px;
+  background: #FF5E00;
+background: linear-gradient(90deg, rgba(255, 94, 0, 1) 0%, rgba(255, 251, 0, 0.18) 100%);
+  color:white;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.kovi-btn:hover{
+  transform:translateY(-5px);
+  transition: all 0.3s;
+}
